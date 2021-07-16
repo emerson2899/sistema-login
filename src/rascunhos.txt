@@ -1,0 +1,30 @@
+/*
+const verificar = ()=>{
+  if(caracter == 0){
+    alert("por favor insira um e-mail");
+
+  }
+
+}; */
+
+//a função abaixo captura a quantidade de caracteres digitados para verificar se foram passados dados nos campos de input
+
+
+//let usuario = [];
+//usuario.push ({inserir});
+
+
+
+
+/*
+function verificar () {
+if(
+    
+)
+  return(
+    
+  );
+};
+
+
+*/
