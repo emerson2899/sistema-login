@@ -6,7 +6,6 @@ import { BrowserRouter, Switch, Router, Link, Route } from 'react-router-dom';
 import {Principal, Caixa, Menu} from './estilo'; 
 import Controle from './Controle';
 import Cadastro from './cadastro';
-import Login from './login';
 
 
 
@@ -21,7 +20,11 @@ import Login from './login';
 
 
 function App() {
+
+  
+
   return (
+    <container>
     <BrowserRouter>
    <Principal>
 
@@ -29,9 +32,11 @@ function App() {
    <Menu>
      <Caixa>
        
-                <Controle icon="/assets/imagens/store.png" link="/" />
+                <Controle 
+                
+                 icon="/assets/imagens/store.png" link="/" />
                 <Controle icon="/assets/imagens/edit.png" link="/cadastro" />
-                <Controle icon="/assets/imagens/profile.png" link="/login" />
+                
               
      </Caixa>
      </Menu>
@@ -53,9 +58,7 @@ function App() {
 
                 </Route>
 
-                <Route exact path="/login"> 
-                <Login/>                 
-                </Route>
+                
 
                 
 
@@ -65,11 +68,25 @@ function App() {
        
      </Switch>
 
+     <br></br>
+     
+       <h1>Faça seu login, ou cadastre-se em nosso sistema</h1>
+
    
    
    </Principal>
+
+   
        
     </BrowserRouter>
+    
+
+    
+
+
+    </container>
+
+    
   );
 }
 

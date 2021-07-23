@@ -8,17 +8,17 @@ import { BrowserRouter, Switch, Router, Link } from 'react-router-dom';
 
 
 
-const Form = styled.h1
 
 function Home (){
 
     return (
 
-        <BrowserRouter>
+        <>
 
-        <Form>Hello word</Form>
 
-        </BrowserRouter>
+        <h1>Faça seu login ou Cadastre-se em nosso site</h1>
+
+        </>
     )    
     ;
 }

@@ -102,20 +102,22 @@ align-itens: center;
 
 `;
 export const Campo = styled.div`
+ align-itens: colums;
+ justfy-content: colums;
 color: #FFF;
 border: solid 5px #00FFFF;
 border-radius: 6px;
-width: 28.5%;
-padding: 5px;
-align-itens: center;
+width: 60%;
+padding: 10px;
+
 text-align:center;
-padding-left: 4%;
+padding-left: 5%;
 background: #FFF opacity: 0.2;
 
-padding-left: -20%;
+
 margin-bottom: 10px;
 margin-top: 10px;
-margin-left: 30.6%;
+margin-left: 20.6%;
 
 `;
 
@@ -126,3 +128,31 @@ export const Senha = styled(DigitaNome) `
 export const Enter = styled.button`
 
 `;
+
+export const Campoa = styled.div`
+
+border: solid 5px #00FFFF;
+margin-top: 4%;
+
+
+margin-left: -30px;
+margin-bottom: 3px;
+width: 380px;
+
+
+
+
+`;
+
+export const Campol = styled.div`
+border: solid 5px #00FFFF;
+margin-left: 500px;
+margin-bottom: 60px;
+margin-top: -365px; 
+width: 380px
+
+`;
+
+export const Logar = styled.button`
+
+  bachground-color: #87CEEB`;
